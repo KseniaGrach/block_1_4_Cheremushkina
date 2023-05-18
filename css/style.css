@@ -18,9 +18,7 @@ body{
 }
 
 .sidebar{
-    width: 320px;
-    box-shadow: -2px 0px 4px rgba(69, 79, 126, 0.02), 16px 0px 52px rgba(14, 24, 80, 0.2);
-
+    width: 100%;
     position: relative;
 	min-height: 100vh;
 }
@@ -127,4 +125,14 @@ li:hover::before{
 
 .language button:first-child{
     color: #7E7E82;
+}
+
+@media (min-width:320.1px) {
+    .sidebar{
+        width: 320px;
+        box-shadow: -2px 0px 4px rgba(69, 79, 126, 0.02), 16px 0px 52px rgba(14, 24, 80, 0.2);
+    
+        position: relative;
+        min-height: 100vh;
+    }
 }
